@@ -1,0 +1,12 @@
+C:\Abhijit\DotNet\FeedbackSystem\Login\obj\Debug\net6.0\Login.csproj.AssemblyReference.cache
+C:\Abhijit\DotNet\FeedbackSystem\Login\obj\Debug\net6.0\Login.GeneratedMSBuildEditorConfig.editorconfig
+C:\Abhijit\DotNet\FeedbackSystem\Login\obj\Debug\net6.0\Login.AssemblyInfoInputs.cache
+C:\Abhijit\DotNet\FeedbackSystem\Login\obj\Debug\net6.0\Login.AssemblyInfo.cs
+C:\Abhijit\DotNet\FeedbackSystem\Login\obj\Debug\net6.0\Login.csproj.CoreCompileInputs.cache
+C:\Abhijit\DotNet\FeedbackSystem\Login\bin\Debug\net6.0\Login.deps.json
+C:\Abhijit\DotNet\FeedbackSystem\Login\bin\Debug\net6.0\Login.dll
+C:\Abhijit\DotNet\FeedbackSystem\Login\bin\Debug\net6.0\Login.pdb
+C:\Abhijit\DotNet\FeedbackSystem\Login\obj\Debug\net6.0\Login.dll
+C:\Abhijit\DotNet\FeedbackSystem\Login\obj\Debug\net6.0\refint\Login.dll
+C:\Abhijit\DotNet\FeedbackSystem\Login\obj\Debug\net6.0\Login.pdb
+C:\Abhijit\DotNet\FeedbackSystem\Login\obj\Debug\net6.0\ref\Login.dll
