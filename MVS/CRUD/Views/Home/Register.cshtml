@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Register page";
+}
+<h1>@ViewData["Register"]</h1>
+
+    <form action="/home/Add">
+ 
+        <div class="container">
+        <table>
+        <tr>
+            <td><label><b>Email</b></label></td>
+            <td><input type="text" placeholder="Enter Email" name="email" required></td><br>
+        </tr>
+            <td><label><b>Password</b></label></td>
+            <td><input type="password" placeholder="Enter Password" name="password" required></td><br>
+            </table>
+ 
+            <button type="submit">Register</button><br>
+            
+        </div>
+ 
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
