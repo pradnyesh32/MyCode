@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Student list Page";
+}
+
+<div class="text-center">
+    @{ @using stud;
+
+            List<Student> studs = (List<Student>)ViewData["prop"];
+                <table style="border: solid; background-color:pink;" align="center">
+                   
+            @foreach (Student s in studs){
+                 <tr style="border: solid;">
+                <td style="border: solid;">@s.Id</td>
+                <td style="border: solid;">@s.Name</td>
+                <td style="border: solid;">@s.Course</td>
+                </tr>
+            }
+            
+            </table>
+
+            {
+                
+            }
+
+    }
+   
+</div>
