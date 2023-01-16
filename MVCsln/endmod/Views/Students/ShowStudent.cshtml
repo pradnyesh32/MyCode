@@ -1,0 +1,23 @@
+
+@{ 
+    ViewData["Title"] = "Students Page";
+}
+
+<div class="text-center">
+   <h1> Students Page</h1>
+
+   @{   @using stud;
+        List<Student> students=(List<Student>)ViewData["catalog"]; 
+        <table><tr>
+            @foreach(Student s in students){
+                <td>@s.Id</td>
+                <td>@s.Name</td>
+                <td>@s.Course</td>
+
+            }
+            </tr>
+        </table>
+    } 
+
+
+</div>
