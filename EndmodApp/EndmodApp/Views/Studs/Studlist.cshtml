@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Student list Page";
+}
+
+<div class="text-center">
+    @{ @using stud;
+
+            List<Student> studs = (List<Student>)ViewData["prop"];
+                <form action="Addstud"><button type="submit" style="background-color: greenyellow;">Add New Student</button></form><br><br>
+                <table style="border: solid; background-color:pink;" align="center">
+                <tr style="border: solid;"><th style="border: solid;">Student Id</th> <th style="border: solid;">  Name  </th><th style="border: solid;"> Course </th></tr>
+            @foreach (Student s in studs){
+                 <tr style="border: solid;">
+                <td style="border: solid;">@s.Id</td>
+                <td style="border: solid;">@s.Name</td>
+                <td style="border: solid;">@s.Course</td>
+                <td ><form action="Deletestud"><input type="text" name="Id" id="Id" value="@s.Id" style="display: none;"> <button type="submit" style="background-color: red;">Delete</button></form></td>
+                </tr>
+            }
+            
+            </table>
+            //<input type="submit" id="@s.Id" value="Delete">
+            {
+                
+            }
+
+    }
+   
+</div>
